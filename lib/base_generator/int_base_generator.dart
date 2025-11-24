@@ -1,6 +1,6 @@
 class IntBaseGenerator{
   final BigInt _b = BigInt.parse('4294967299'); // 2^32+3
-  final BigInt _m = BigInt.parse('9223372036854775808'); // 2^64
+  final BigInt _m = BigInt.parse('9223372036854775808'); // 2^63
   late BigInt _current;
 
   IntBaseGenerator(){
